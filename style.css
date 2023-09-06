@@ -484,6 +484,28 @@ span {
         font-size: 2rem;
         margin: 3rem 0;
     }
+
+    section {
+        padding: 5rem 4% 1rem;
+    }
+
+    .projetos{
+        display: flex;
+        height: 30rem;
+        gap: 1rem;
+    }
+    .projetos > div {
+        flex: 1;
+        border-radius: 1rem;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+    }
+    .projetos > div:hover {
+        flex: 5;
+    }
+    
 }
 
 @media (max-width: 520px){
