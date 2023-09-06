@@ -486,7 +486,7 @@ span {
     }
 
     section {
-        padding: 5rem 4% 1rem;
+        min-height: 70vh;
     }
 
     .projetos{
