@@ -28,7 +28,6 @@ body{
     color: #eee;
 }
 
-
 .header{
     position: fixed;
     top: 0;
@@ -411,6 +410,7 @@ span {
     background-color: var(--bg-color);
     color: #dd6413;
     border: 1px solid var(--main-color);
+    transition: .2s;
 }
 
 
