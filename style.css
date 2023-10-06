@@ -192,7 +192,8 @@ img {
     bottom: 40px;
     width: 170px;
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    gap: 15px;
 }
 
 .home-sci a {
@@ -298,9 +299,11 @@ span {
     margin: 2rem 0 3 rem;
 }
 
-.btn-box btns{
-    display: inline-block;
-    width: 15rem;
+.btn-box.repo{
+    display: flex;
+    width: 20rem;
+    margin-left: 40%;
+    margin-top: 15px;
 }
 
 .education{
