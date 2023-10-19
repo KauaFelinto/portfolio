@@ -503,7 +503,7 @@ span {
     }
     .projetos > img{
         position: relative;
-        width: 200px;
+        width: 480px;
         aspect-ratio: 4/2;
         object-fit: cover;
         transition: .5s;
@@ -546,6 +546,13 @@ span {
         flex-direction: column;
         column-count: 1;
         column-gap: 0;
-        gap: 5px;
+        gap: 10px;
+    }
+    .projetos > img{
+        position: relative;
+        width: 360px;
+        aspect-ratio: 4/2;
+        object-fit: cover;
+        transition: .5s;
     }
 }
