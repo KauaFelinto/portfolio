@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
 
 *{
     margin: 0;
@@ -12,6 +12,7 @@
 
 :root{
     --bg-color: #17181a;
+    --bg-color-ligth: #ededed;
     --second-bg-color: #17181a;
     --text-color: #ededed;
     --main-color: #dd6413;
@@ -27,6 +28,7 @@ body{
     background-color: #17181a;
     color: #eee;
 }
+
 
 .header{
     position: fixed;
@@ -360,11 +362,13 @@ span {
 }
 
 .education-content .content .year h3{
-    font-size: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .education-content .content .year p{
     font-size: 1.6rem;
+    font-weight: 100;
     padding-top: .5rem;
 }
 
