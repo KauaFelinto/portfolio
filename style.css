@@ -174,7 +174,7 @@ section {
     cursor: pointer;
     position: relative;
     column-count: 2;
-    column-gap: 1;
+    column-gap: 2;
 }
 .projetos > img{
     position: relative;
